@@ -19,7 +19,6 @@ const InitialScene = () => {
     const interval = setInterval(() => {
       setRotation(prev => [prev[0], prev[1] + 1, prev[2]]);
     }, 16);
-
     return () => clearInterval(interval);
   }, []);
 
@@ -32,12 +31,16 @@ const InitialScene = () => {
         const data = await response.json();
         setTemperature(data.main.temp);
         setHumidity(data.main.humidity);
+        console.log(data.main)
       } catch (error) {
         console.error("Error al obtener datos del clima:", error);
       }
     };
 
     fetchWeather();
+    const interval = setInterval(fetchWeather, 2000);
+
+    return () => clearInterval(interval);
   }, []);
 
   return (
