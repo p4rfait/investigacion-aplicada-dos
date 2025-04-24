@@ -1,4 +1,4 @@
-# investigacion-aplicada-dos
+# Investigacion Aplicada Dos
 
 Pasos a seguir para compilar y ejecutar la aplicacion
 
