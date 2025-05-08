@@ -31,5 +31,5 @@ npx react-native run-ios
 npx react-native run-android
 ```
 
-### Integrantes:
+## Integrantes:
 - Tomás Armando Campos Lopez - CL231461
