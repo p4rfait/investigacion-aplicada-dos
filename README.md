@@ -33,3 +33,4 @@ npx react-native run-android
 
 ## Integrantes:
 - Tomás Armando Campos Lopez - CL231461
+- Omarvis Innaun Mendoza Portillo - MP192089
